@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+.adminComponent{
+    display: flex;
+    background-color: #eeeded;
+}
+.adminComponent .sideBar{
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 14px;
+    text-align: center;
+   min-width: 300px;
+}
+.logoApp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    margin: 20px;
+}
+.logoApp img{
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #787272; 
+    margin-right: 10px;
+}
+.logoApp h1{
+    color: #787272;
+    font-weight: 400;
+}
+.profile{
+    border-bottom: 2px solid #ccc;
+   margin: 10px;
+}
+.profile img{
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+    padding: 6px;
+    border: 3px solid #a3a0a0; 
+}
+.profile .email{
+    color: #a3a0a0;
+    margin-top: 0;
+
+    margin-bottom: 30px;
+
+
+}
+.profile h2{
+    margin-bottom: 0;
+}
+.icon {
+    color: #a3a0a0;
+    margin-right: 8px; 
+    vertical-align: middle; 
+    font-size: 20px;
+
+}
+
+.custom-list {
+    list-style-type: none; 
+}
+
+.custom-list li {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 12px; 
+    font-size: 18px;
+    cursor: pointer;
+}
+.custom-list li .icon {
+    background-color: #739822;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: #768a4a 0px 7px 5px 0px;
+}
+ input[type="file"] {
+    display: none;
+}
+
+.start-course {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 2px dotted #ccc;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 0 10px;
+
+}
+
+.importlesson{
+    border-top: 2px solid #ccc;
+    margin: 10px;
+}
+.greetings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.greetings h1{
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-size: 35px;
+}
+.greetings button{
+    background-color: #080244;
+    color: #fff;
+    padding: 15px 20px;
+    font-weight: bold;
+    border-radius: 14px;
+    font-size: 15px;
+    border: 2px solid #080244;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 14px;
+    padding: 30px;
+}
+
+.info .item{
+    color: #fff;
+    background-image: url("https://img.freepik.com/premium-vector/design-hijab-scarf_538021-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+     padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.info .item span{
+    font-weight: bold;
+    font-size: 40px;
+}
+.info .item p{
+    margin: 0;
+}
+.AssignemetsContainer{
+    background-color: #fff;
+    border-radius: 14px;
+    padding: 20px;
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.AssignemetsContainer .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f9e8;
+    border-radius: 24px;
+    margin: 10px;
+    padding: 20px;
+
+
+}
+.item h3{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.AssignemetsContainer .item span{
+    color: #8d8787;
+}
+.score p{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+
+}
+.AssignmentIcon{
+    background-color:#769e48 ;
+    color: #fff;
+   margin-right: 5px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.AssignemetsContainer .Completed{
+    background-color: #080244;
+    border-radius: 14px;
+    padding: 10px 20px;
+    cursor: pointer;
+} 
+.AssignemetsContainer .Completed span{
+    color: #fff;
+
+}
+.schedules{
+    background-color: #fff;
+    padding: 20px;
+    height: 500px;
+    margin: 30px;
+    border-radius: 14px;
+
+}
+.eventFormContainer{
+    text-align: left;
+    width: 250px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.eventFormContainer h4{
+    text-align: center;
+    text-transform: capitalize;
+}
+.eventFormContainer input{
+    display: block;
+}
+
+.eventFormContainer input{
+    width: 200px;
+    height: 20px;
+
+}
+.eventFormContainer button{
+    margin: 10px;
+}

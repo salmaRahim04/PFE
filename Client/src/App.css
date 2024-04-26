@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Scada:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Elsie:wght@400;900&display=swap');
+
+.HomePage {
+  background-color: #eafee1; 
+  background-image: linear-gradient(to left, #fff,#eafee1);
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  margin-top: -10px;
+  height: 100vh;
+  margin-left: -10px;
+}
+
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.logo img{
+   width: 100px;
+   height: 100px;
+   margin-left: 100px;
+   border-radius: 8%;
+   margin-top: 20px;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.menu-list ul{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-right: 80px;
+}
+
+.menu-list li {
+  display: inline-block;
+  margin-right: 20px;  
+  font-family: "Martel Sans", sans-serif;
+  font-size:18px;
+}
+.menu-list li button {
+  text-decoration: none;
+  color: white; /* Adjust button text color */
+  background-color: #2f5f19; /* Adjust button background color */
+  border: none;
+  padding: 8px 16px; /* Adjust button padding */
+  border-radius: 4px; /* Adjust button border radius */
+}
+
+.menu-list li button:hover {
+  background-color: #eafee1;
+  color: #000; 
+  cursor: pointer;
+}
+.content{
+  display: flex;
+  justify-content: space-around;
+  font-family: "Martel Sans", sans-serif;
+margin-top: 40px;
+}
+.content h1{
+  font-size: 67px;
+  font-family: "Alkatra", system-ui;
+  margin-top: 50px;
+  font-weight: normal;
+
+}
+.content img{
+
+  width: 350px;
+}
+.contentInput{
+  display: flex;
+  align-items: center;
+}
+#outlined-basic{
+  width: 300px;
+}
+.contentInput button{
+  background-color: #2f5f19;
+
+}
+.contentInput button:hover{
+  background-color: #1c3d0d;
+}
+.contentInput input{
+   border-radius: 4px;
+   width: 422px;
+   padding: 10px 0;
+   margin-right: 10px;
+   border: 2px solid #2f5f19;
+   padding-left: 10px;
+   height: 23px;
+}
